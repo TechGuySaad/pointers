@@ -29,9 +29,9 @@ int main() //Line 3
     << ", *p = " << *p << endl; //Line 17
     cout << "Line 18: q = " << q
     << ", *q = " << *q << endl; //Line 18
-    delete q; //Line 19
+   // delete q; //Line 19
 
-    q = NULL; //Line 20
+    // q = NULL; //Line 20
     q = new int; //Line 21
     *q = 62; //Line 22
     cout << "Line 23: p = " << p
